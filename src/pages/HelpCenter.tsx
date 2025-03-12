@@ -1,5 +1,5 @@
-
-import React, { useState } from "react";
+import React from "react";
+import { Mail as MailIcon } from "lucide-react";
 import { 
   Accordion,
   AccordionContent,
@@ -230,7 +230,7 @@ const HelpCenter: React.FC = () => {
                   <span>Support Hotline: (555) 123-4567</span>
                 </p>
                 <p className="text-sm flex items-center">
-                  <Mail className="h-4 w-4 mr-2 text-health-500" />
+                  <MailIcon className="h-4 w-4 mr-2 text-health-500" />
                   <span>Email: support@healthapp.com</span>
                 </p>
                 <p className="text-sm">
