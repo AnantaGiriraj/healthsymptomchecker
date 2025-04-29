@@ -20,7 +20,7 @@ const doctors: Doctor[] = [
   {
     id: 1,
     name: "Dr. Aman Kumar",
-    photo: "./public/doc-1.png",
+    photo: "/doc-1.png",
     specialization: "Cardiologist",
     degrees: "MD, FACC",
     experience: "15 years",
@@ -32,7 +32,7 @@ const doctors: Doctor[] = [
   {
     id: 2,
     name: "Dr. Prince Kumar",
-    photo: "./public/doc-4.jpg",
+    photo: "/doc-4.jpg",
     specialization: "Neurologist",
     degrees: "MD, PhD",
     experience: "12 years",
@@ -44,7 +44,7 @@ const doctors: Doctor[] = [
   {
     id: 3,
     name: "Dr. Raj Agrawal",
-    photo: "./public/doc-3.jpg",
+    photo: "/doc-3.jpg",
     specialization: "Dermatologist",
     degrees: "MD, FAAD",
     experience: "10 years",
@@ -56,7 +56,7 @@ const doctors: Doctor[] = [
   {
     id: 4,
     name: "Dr. Ajay Sharma",
-    photo: "./public/doc-2.png",
+    photo: "/doc-2.png",
     specialization: "Gastroenterologist",
     degrees: "MD, FACG",
     experience: "18 years",
@@ -68,7 +68,7 @@ const doctors: Doctor[] = [
   {
     id: 5,
     name: "Dr. Pranav Mahajan",
-    photo: "./public/doc-6.png",
+    photo: "/doc-6.png",
     specialization: "Endocrinologist",
     degrees: "MD, FACE",
     experience: "14 years",
